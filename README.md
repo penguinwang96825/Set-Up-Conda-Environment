@@ -25,3 +25,13 @@ $ export PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%
 $ export PATH=C:\tools\cuda\bin;%PATH%
 ```
 * Add the absolute path to the TensorRTlib directory to the environment variable LD_LIBRARY_PATH
+
+## Change Theme
+```python
+from jupyterthemes import jtplot
+
+jtplot.style(theme="oceans16")
+```
+```shell
+jt -t oceans16 -T -N
+```
